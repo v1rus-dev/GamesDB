@@ -18,6 +18,8 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+//        buildConfigField("String", "API_KEY", System.getenv("RAWG_API_KEY"))
     }
 
     buildTypes {
