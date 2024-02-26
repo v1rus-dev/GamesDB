@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "GamesDB"
 include(":app")
+include(":data:api")
+include(":data:database")
